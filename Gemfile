@@ -1,6 +1,7 @@
 # frozen_string_literal: true
-#gem "jekyll-theme-yat"
-gem "github-pages", group: :jekyll_plugins
 source "https://rubygems.org"
-gemspec
+gem "jekyll-theme-yat"
+gem "kramdown-parser-gfm"
+gem "wdm"
+gem "webrick"
 
