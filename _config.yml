@@ -81,6 +81,10 @@ translate_langs:
   - lang: en
     img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
     text: English
+
+  - lang: vi
+    img: https://cdn.countryflags.com/thumbs/vietnam/flag-400.png
+    text: Tiếng Việt
 #
 #   - lang: fr
 #     img: https://cdn.countryflags.com/thumbs/france/flag-400.png
@@ -160,10 +164,10 @@ header_pages:
   - about.md
 
 # Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
+defaults:
+  home:
+    heading: "Learn Anything. Anytime. Anywhere."
+    subheading: "Unlocking your potential today."
 #     banner: "Your image url"
 
 # Banner default settings
