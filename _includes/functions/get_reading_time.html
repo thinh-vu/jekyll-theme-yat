@@ -24,12 +24,12 @@
 {% assign hours = total_mins | divided_by: 60 %}
 {% assign mins = total_mins | modulo: 60 %}
 
-{% assign return = "About" %}
+{% assign return = "Khoảng" %}
 
 {% if hours > 0 %}
-  {% assign unit = "hour" %}
+  {% assign unit = "giờ" %}
   {% if hours > 1 %}
-    {% assign unit = unit | append: "s" %}
+    {% assign unit = unit | append: "" %}
   {% endif %}
   {% assign return = return
     | append: " "
@@ -38,9 +38,9 @@
     | append: unit %}
 {% endif %}
 
-{% assign unit = "min" %}
+{% assign unit = "phút" %}
 {% if mins > 1 %}
-  {% assign unit = unit | append: "s" %}
+  {% assign unit = unit | append: "" %}
 {% endif %}
 {% assign return = return
   | append: " "

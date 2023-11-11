@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Table example
-subtitle:
-categories: example
-tags: [table]
+subtitle: Demo markdown table capabilities
+categories: demo
+tags: [table, demo]
 ---
 
 ## Table example as below

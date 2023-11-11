@@ -1,18 +1,20 @@
 ---
 layout: post
-title: My first post
-subtitle: A note on using jekyll-theme-yat
+title: Hướng dẫn cấu hình jekyll theme yat
+subtitle: Bài viết thử đầu tiên
 author: Thinh Vu
 categories: jekyll
-tags: jekyll theme yat
+tags: [guide]
 top: 1
-sidebar: []
+banner: 
+  image: /assets/images/banners/home.jpeg
 ---
 
 ## Cài đặt Jekyll
-- Hướng dẫn: https://jekyllrb.com/docs/installation/windows/
+
+- Hướng dẫn: [tại đây](https://jekyllrb.com/docs/installation/windows/)
 - Chi tiết:
-	- Tải Ruby Installer cho Windows: https://rubyinstaller.org/downloads/
+	- Tải [Ruby Installer](https://rubyinstaller.org/downloads/) cho Windows
 	- Mặc định chọn `ridk install` ở bước cài đặt cuối cùng của Wizard
 	- Trong terminal/command prompt chạy sau khi kết thúc Wizard, nhập `3` cho tùy chọn tương ứng `MSYS2 and MINGW development tool chain`
 	 ![demo](/assets/images/Pasted image 20231110213146.png)
@@ -26,7 +28,9 @@ sidebar: []
 	  C:\Users\mrthi>jekyll -v
 	jekyll 4.3.2
 	```
+
 ## YAT theme
+
 URL: https://jeffreytse.github.io/jekyll-theme-yat/about.html
 ### Thiết lập
 - File `Gemfile` chứa thông tin thiết lập về theme được sử dụng, các gói phụ thuộc cần được chỉ rõ. Trong hướng dẫn ban đầu tác giả nêu không đầy đủ do đó khi sử dụng sẽ gặp lỗi khi thiết lập và người dùng không có kinh nghiệm sẽ loay hoay.
@@ -38,3 +42,14 @@ URL: https://jeffreytse.github.io/jekyll-theme-yat/about.html
 ### Build local hay github action và github page?
 - Nên sử dụng local mặc dù mất công thiết lập môi trường (1 lần), về sau chạy lệnh build nhanh chóng và cho phép preview trang để dễ dàng debug. Sau khi thành công hãy push vào 1 nhánh riêng và đẩy lên github page branch để hiển thị.
 - Github page chạy mất thời gian, không thể preview, lỗi thì khó debug hơn hoặc reverse lại phiên bản cũ.
+
+## Tính năng
+### Viết bài
+- Diagram: Có thể sử dụng [PlantUML](https://plantuml.com/guide) hoặc Mermaid
+- Table: Hỗ trợ nhiều cài đặt như gộp ô, headless
+### Giao diện
+- Đặt properties `sidebar: []` để ẩn TOC bên phải
+- Cấu hình sidebar tại file `article_menu` tại đường dẫn `jekyll-theme-yat\_includes\sidebar`
+- Thay đổi tên `Dark/Light` thành `Tối/Sáng` tại file `jekyll-theme-yat/_includes/extensions/theme-toggle.html`
+### Phân tích
+- Sửa đổi đoạn mã theo dõi GA thành GTM (nếu cần) tại file `jekyll-theme-yat/_includes/extensions/google-analytics.html`
