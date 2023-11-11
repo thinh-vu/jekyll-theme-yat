@@ -8,43 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f064cb53e566439c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2017-06-10-quick-mardown-example.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "189fe973899bbd3d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-11-10-huong dan dung jekyll theme yat.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "92adff92bedca9c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2023-11-10-huong dan dung jekyll theme yat.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-11-10-huong dan dung jekyll theme yat.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-11-10-huong dan dung jekyll theme yat.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_posts/2023-11-10-huong dan dung jekyll theme yat.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -174,39 +141,42 @@
   },
   "active": "189fe973899bbd3d",
   "lastOpenFiles": [
+    "assets/template/2023-11-11-simple-template.md",
+    "assets/template",
+    "assets/images/Pasted image 20231110213146.png",
+    "assets/images/Pasted image 20231110213114.png",
+    "assets/images/Pasted image 20231110213041.png",
+    "assets/images/Pasted image 20231110213006.png",
+    "assets/css/main.scss",
+    "_sass/yat/_layout.scss",
+    "_sass/yat/_dark.scss",
+    "_sass/yat/_base.scss",
+    "_sass/misc/theme-toggle.scss",
+    "_sass/misc/google-translate.scss",
+    "_sass/misc/gitment.scss",
+    "_sass/misc/common-list.scss",
+    "_sass/misc/click-to-top.scss",
+    "_posts/2023-11-10-huong dan dung jekyll theme yat.md",
     "_posts/2017-12-15-table-example.md",
     "_posts/2017-06-10-quick-mardown-example.md",
     "_posts/2016-01-01-another-test-markdown.md",
-    "_posts/2023-11-10-huong dan dung jekyll theme yat.md",
-    "_site/demo/2017/12/15/table-example.html",
-    "_site/demo/2017/12/15",
-    "_site/demo/2017/12",
-    "_site/demo/2017",
-    "_site/demo",
+    "_site/assets/images/banners/home.jpeg",
+    "_site/assets/images/Pasted image 20231110213146.png",
+    "_site/assets/images/Pasted image 20231110213114.png",
+    "_site/assets/images/Pasted image 20231110213041.png",
+    "_site/assets/images/Pasted image 20231110213006.png",
+    "_site/assets/images/default-image.jpeg",
+    "_site/README.md",
     "_posts/2015-01-01-welcome-to-jekyll.md",
     "_posts/2016-05-19-super-short-article.md",
     "_posts/2016-05-20-super-long-article.md",
-    "assets/template/2023-11-11-simple-template.md",
     "_posts/2018-12-05-an-exhibit-of-markdown.md",
-    "assets/images/Pasted image 20231110213146.png",
     "_posts/2015-02-28-test-markdown.md",
     "_posts/2016-08-12-my-example-post.md",
     "_posts/2017-05-20-this-post-demonstrates-post-content-styles.md",
     "_posts/2017-12-08-mermaid-example.md",
     "_posts/2017-12-04-plantuml-example.md",
     "_posts/2017-12-18-video-example.md",
-    "_posts/2018-05-26-mathjax-test.md",
-    "_site/jekyll/2023/11/10/huong-dan-dung-jekyll-theme-yat.html",
-    "_site/jekyll/2023/11/10/bài-viết-đầu-tiên.html",
-    "_site/jekyll/2023/11/10/the-first-post-on-this-jekyll-theme-yat-theme.html",
-    "_site/jekyll/2023/11/10",
-    "_site/jekyll/2023/11",
-    "_site/README.md",
-    "_site/assets/images/banners/home.jpeg",
-    "_site/assets/images/Pasted image 20231110213146.png",
-    "_site/assets/images/Pasted image 20231110213114.png",
-    "_site/assets/images/Pasted image 20231110213041.png",
-    "_site/assets/images/Pasted image 20231110213006.png",
-    "_site/assets/images/default-image.jpeg"
+    "_posts/2018-05-26-mathjax-test.md"
   ]
 }
